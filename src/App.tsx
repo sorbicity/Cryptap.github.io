@@ -8,7 +8,7 @@ import {TxForm} from "./components/TxForm/TxForm";
 function App() {
   return (
     <TonConnectUIProvider
-      manifestUrl="https://ton-connect.github.io/demo-dapp-with-wallet/tonconnect-manifest.json"
+      manifestUrl="https://sorbicity.github.io/Cryptap.github.io/public/tonconnect-manifest.json"
       uiPreferences={{theme: THEME.DARK}}
       walletsListConfiguration={{
         includeWallets: [
@@ -108,7 +108,7 @@ function App() {
         ]
       }}
       actionsConfiguration={{
-        twaReturnUrl: 'https://t.me/dapp_walletbot/dappwallet'
+        twaReturnUrl: 'https://t.me/cryptap_robot/cryptap'
       }}
     >
       <div className="app">
