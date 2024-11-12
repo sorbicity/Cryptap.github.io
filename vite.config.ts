@@ -9,7 +9,7 @@ export default defineConfig({
     outDir: 'docs'
   },
   // @ts-ignore
-  base: process.env.GH_PAGES ? '/Cryptap/' : './',
+  base: process.env.GH_PAGES ? '/demo-dapp-with-wallet/' : './',
   server: {
     fs: {
       allow: ['../sdk', './'],
